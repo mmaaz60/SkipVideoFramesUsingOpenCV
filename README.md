@@ -2,11 +2,11 @@
 
 In this repository, I will show you two pipelines to skip frames while processing a video in an application. I will provide a comparison of two practices in terms of speed. Let's get started.
 
-## Skip Frames using VideoCapture.read() meathod
+## Skip Frames using VideoCapture.read() method
 
 The script **"skip_frames_using_read.py"** implements video frames skip using VideoCapture.read() method of OpenCV. The code reads each frame of video and process it only if processing frame.
 
-## Skip Frames using VideoCapture.grab() meathod
+## Skip Frames using VideoCapture.grab() method
 
 The script **"skip_frames_using_grab.py"** implements video frames skip using VideoCapture.grab() method of OpenCV. The code grabs each frame of video and encode only the processing frame.
 
