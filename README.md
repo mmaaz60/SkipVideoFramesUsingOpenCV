@@ -43,3 +43,6 @@ VideoCapture.read() method grabs and encodes each video frame. However, while us
 ## Conclusion
 
 The above experiments show that, the VideoCapture.grab() method is the finest choice over VideoCapture.read() method in applications where we have to process a fraction of video frames. Moreover, the processing speed decreases and speed gain increases with the increase in number of skip frames.
+
+## References
+- https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html
