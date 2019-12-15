@@ -55,5 +55,8 @@ if __name__ == '__main__':
 
 	end = time.time()  # Capture end time
 	
+	# Processing time
+	print("Processing Time (.read()): " + str(end - start) + " sec")
+	
 	# Processing FPS = Total Processing Frames / Time to process
-	print("Processing FPS (.read()): " + str(processed_frame_count/(end - start)))
+	print("Processing speed (.read()): " + str(processed_frame_count/(end - start)) + " FPS")
